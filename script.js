@@ -51,6 +51,7 @@ const criarNovoParticipante = participante => {
       <td>
         <strong>
           ${participante.nome}
+        </strong>
           <br>
           <small>
             ${participante.email}
