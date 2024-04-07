@@ -17,6 +17,21 @@
 
 <body>
 
+  <form onsubmit="adicionarParticipante(event)">
+    <fieldset>
+      <legend>inscrição</legend>
+
+      <div>
+        <input type="text" placeholder="Nome Completo" name="nome" required>
+
+        <input type="email" placeholder="Email" name="email" required>
+
+        <button>REALIZAR INSCRIÇÃO</button>
+      </div>
+
+    </fieldset>
+  </form>
+
   <table width="100%">
 
     <thead style="text-align:left">
@@ -44,7 +59,7 @@
     </tbody>
   </table>
 
-  <script src="index.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
